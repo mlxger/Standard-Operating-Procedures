@@ -1,6 +1,5 @@
 # Directory Structure
 
-**
 ```
 models/
 ├─ action/
