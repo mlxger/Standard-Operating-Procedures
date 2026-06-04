@@ -1,0 +1,26 @@
+yolo:
+  model: "./models/yolo/yolov8m-seg.pt"
+  conf_threshold: 0.5
+  iou_threshold: 0.45
+  device: "cuda:0"
+  imgsz: 640
+
+mediapipe:
+  max_num_hands: 2
+  min_detection_confidence: 0.7
+  min_presence_confidence: 0.5      # ← Tasks API 新增字段
+  min_tracking_confidence: 0.5
+
+action_model:
+  input_dim: 126       # 2 hands × 21 points × 3 coords
+  num_classes: 10
+  seq_len: 30          # 1秒 @30fps
+  d_model: 128
+  nhead: 4
+  num_layers: 3
+  device: "cuda:0"
+
+tracker:
+  max_age: 30
+  n_init: 3
+  max_cosine_distance: 0.3

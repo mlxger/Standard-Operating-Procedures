@@ -1,0 +1,46 @@
+project: "组装灯"
+operator: "张三"
+mode: "常规顺序"
+
+steps:
+  - id: 1
+    name: "放挡圈"
+    expected_actions: ["放挡圈", "拿取零件"]
+    time_limit: 15.0
+    
+  - id: 2
+    name: "螺钉1"
+    expected_actions: ["螺钉1", "拧螺钉"]
+    time_limit: 20.0
+    
+  - id: 3
+    name: "放置转子"
+    expected_actions: ["放置转子", "拿取零件"]
+    time_limit: 15.0
+    
+  - id: 4
+    name: "放螺母"
+    expected_actions: ["放螺母", "拿取零件"]
+    time_limit: 12.0
+    
+  - id: 5
+    name: "点胶"
+    expected_actions: ["点胶"]
+    time_limit: 10.0
+    
+  - id: 6
+    name: "装转块"
+    expected_actions: ["装转块", "拿取零件"]
+    time_limit: 15.0
+
+action_labels:
+  0: "放挡圈"
+  1: "螺钉1"
+  2: "放置转子"
+  3: "放螺母"
+  4: "点胶"
+  5: "装转块"
+  6: "空闲"
+  7: "拿取零件"
+  8: "拧螺钉"
+  9: "检查"
