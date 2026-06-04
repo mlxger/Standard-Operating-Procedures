@@ -4,4 +4,4 @@
 
 这是一个动作分类模型，通过 Yolo实时监测
 
-![太极拳图片](TaiChi/6c482439cad388fd88fbf6df7bd8511d.png) 
+![太极拳图片](./6c482439cad388fd88fbf6df7bd8511d.png) 
