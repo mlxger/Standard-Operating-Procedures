@@ -1,15 +1,15 @@
 # Directory Structure
 
-|----------models
-  |----------action
-       |----------swin_base_patch244_window877_kinetics600_22k.pth
-  |----------mediapipe
-       |----------hand_landmarker.task
-  |----------yolo
-       |----------yolov8n-seg.pt
-       |----------yolo11x-pose.pt
-       |----------yolov8n-pose.pt
-       |----------yolov8m-seg.pt
+models/
+├─ action/
+│ └─ swin_base_patch244_window877_kinetics600_22k.pth
+├─ mediapipe/
+│ └─ hand_landmarker.task
+└─ yolo/
+├─ yolov8n-seg.pt
+├─ yolo11x-pose.pt
+├─ yolov8n-pose.pt
+└─ yolov8m-seg.pt
        
 
 # model Link
