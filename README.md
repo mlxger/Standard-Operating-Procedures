@@ -7,6 +7,8 @@ Footwear production line SOP video dataset link (Baidu Cloud): [[URL](https://pa
 
 # Environment install
 
+```
 conda create --name sop python=3.11
 conda activate sop
 conda install -r requirements.txt
+```
